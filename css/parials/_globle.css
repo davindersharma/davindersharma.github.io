@@ -1,48 +1,62 @@
-title-text {
-    font: normal bold 50px/72px var(--roboto)
-}
-
-.text-uppercase {
-    text-transform: uppercase;
-}
-
-
-/* =======buttons========== */
-
-.button {
-    padding: .8rem 2.2rem;
-    font: normal 500 16px/20px var(--roboto);
-    position: relative;
-    border: 3px solid transparent;
-    border-radius: 4px;
-    /* background-color: tomato; */
-}
-
-.button.primary-button {
-    background: var(--gradient-color);
-    background-clip: padding-box;
-    color: black;
-    transition: background.6s ease;
-    box-shadow: var(--box-shadow);
-}
-
-.button.primary-button:hover {
-    background: whitesmoke;
-    background-clip: padding-box;
-    color: black;
-}
-
-.button.primary-button::after {
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    bottom: -2px;
-    right: -2px;
-    background: var(--gradient-color);
-    content: '';
-    z-index: -1;
-}
-
-.button.secondry-button{
-    
-}
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Document</title><!--=============bootstrap css file=======--><link rel="stylesheet" href="./css/bootstrap.min.css"><link rel="stylesheet" href="./css/style.css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><!-- maganfic popup file===============--><link rel="stylesheet" href="./vendor/Magnific-Popup-master/dist/magnific-popup.css"></head><body><!--=====================Start Header Area==============--><header class="header_area"><div class="main-menu"><nav class="navbar navbar-expand-lg navbar-light"><a class="navbar-brand" href="#"><img src="./img/logo.png" alt="logo"></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarNav"><div class="mr-auto"></div><ul class="navbar-nav"><li class="nav-item active"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></li><li class="nav-item"><a class="nav-link" href="#">Services</a></li><li class="nav-item"><a class="nav-link" href="#">portfolio</a></li><li class="nav-item"><a class="nav-link" href="#">pages</a></li><li class="nav-item"><a class="nav-link" href="#">blog</a></li><li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">contact</a></li></ul></div></nav></div></header><!--=====================end Header Area==============--><!--=====start main-area====--><main class="site-main"><!--====start banner areaa===--><section class="site-banner"><div class="container"><div class="row"><div class="col-lg-6 col-md-12 site-title"><h3 class="title-text">Hey</h3><br><h1 class="title-text text-uppercase">I am davinder sharma </h1><h4 class="title-text text-uppercase">Junior programmer </h4><div class="site-buttons"><div class="d-flex flex-row flex-wrap"><button type="button" class="btn button
+ primary-button mr-4 text-uppercase">hire
+ me</button><button type="button" class="btn button
+ secondry-button mr-4 text-uppercase">Get
+ cv</button></div></div></div><div class="col-lg-6 col-md-12 banner-image"><img src="./img/banner-image.png" alt="banner-img" class="img-fluid"></div></div></div></section><!--=====end main-area====--><!--==============about area============--><section class="about-area"><div class=".container-fluid"><div class="row"><div class="col-lg-6 col-md-12"><div class="about-image"><img src="./img/about-us.png" alt="About-us" class="img-fluid"></div></div><div class="col-lg-6 col-md-12"><h2 class="text-uppercase pt-5"><span>Let me</span><span>introduce</span><span>myself</span></h2><div class="paragraph py-4 w-75"><p class="para">Lorem ipsum dolor,
+sit amet consectetur adipisicing elit. Harum eveniet omnis quibusdam quasi deserunt eaque id,
+pariatur nihil reiciendis. Fuga molestiae blanditiis iste! Facilis,
+nihil. Nemo esse distinctio beatae amet! </p><p class="para">Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+as opposed to using 'Content here, content here',
+making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years,
+sometimes by accident,
+sometimes on purpose (injected humour and the like). </p></div><button type="button" class="btn button
+ primary-button text-uppercase">Download cv</button>
+ </div></div></div></section><!--==============end about area============--><!-- brand area==========--><section class="brand-area"><div class="container-fluid"><div class="row"><div class="col-xl-6 col-lg-12 col-md-12"><div class="first-row row"><div class="col-lg-4 col-md-6 col-sm-6"><div class="single-brand"><img src="./img/logo1.png" alt="Brand-1"></div></div><div class="col-lg-4 col-md-6 col-sm-6"><div class="single-brand"><img src="./img/logo2.png" alt="Brand-2"></div></div><div class="col-lg-4 col-md-6 col-sm-6"><div class="single-brand"><img src="./img/logo3.png" alt="Brand-3"></div></div><div class="col-lg-4 col-md-6 col-sm-6"><div class="single-brand"><img src="./img/logo4.png" alt="Brand-4"></div></div><div class="col-lg-4 col-md-6 col-sm-6"><div class="single-brand"><img src="./img/logo5.png" alt="Brand-5"></div></div><div class="col-lg-4 col-md-6 col-sm-6"><div class="single-brand"><img src="./img/logo6.png" alt="Brand-6"></div></div><div class="col-lg-4 col-md-6 col-sm-6"><div class="single-brand"><img src="./img/logo7.png" alt="Brand-7"></div></div><div class="col-lg-4 col-md-6 col-sm-6"><div class="single-brand"><img src="./img/logo8.png" alt="Brand-8"></div></div><div class="col-lg-4 col-md-6 col-sm-6"><div class="single-brand"><img src="./img/logo9.png" alt="Brand-9"></div></div></div></div><div class="col-xl-6 col-lg-12 col-md-12"><div class="experience-area"><div class="d-flex flex-row years-area"><h2 class="h2.p-3 years"></h2><h2><span>Years</span><span>Experience</span><span>working</span></h2></div><div class="d-flex flex-row flex-wrap
+ call-area">
+ <span><i class="fas fa-phone-alt fa-3x"></i></span><div class="call-now"><a href="#" class="text text-uppercase
+ h4 font-roboto">call now</a>
+ <span class="font-roboto py-2">(+1)-306-580-6152</span></div></div><div class="bg-panel"></div></div></div></div></div></section><!--end brand area==========--><!--=======start Service area=============--><section class="services-area"><div class="container"><div class="row"><div class="col-lg-12 text-centre services-title"><h1 class="text-uppercase title-text">Service Offers</h1><p class="para">hvfugbfdkcsjfehcskfhbcfhbwdnmaskiduyreidsuhgjtklyngfviugv3krjsdoicheajsoerhfvkcdrheufhltj </p></div></div><div class="container services-list"><div class="row"><div class="col-lg-3 col-md-6 col-sm-12"><div class="services"><div class="services-img text-centre py-4"><img src="./img/s1.png" alt="section-1"></div><div class="card-body text-centre"><h5 class="card-title text-uppercase
+ font-roboto">Web developer</h5>
+ <p class="card-text text-secondary">dbekhrgkwhera;
+wgltrsdfnlkgwvfktgrlvj;
+tljtrkgjerdfjkrgl </p></div></div></div><div class="col-lg-3 col-md-6 col-sm-12"><div class="services"><div class="services-img text-centre py-4"><img src="./img/s2.png" alt="section-2"></div><div class="card-body text-centre"><h5 class="card-title text-uppercase
+ font-roboto">Web developer</h5>
+ <p class="card-text text-secondary">dbekhrgkwhera;
+wgltrsdfnlkgwvfktgrlvj;
+tljtrkgjerdfjkrgl </p></div></div></div><div class="col-lg-3 col-md-6 col-sm-12"><div class="services"><div class="services-img text-centre py-4"><img src="./img/s3.png" alt="section-3"></div><div class="card-body text-centre"><h5 class="card-title text-uppercase
+ font-roboto">Web developer</h5>
+ <p class="card-text text-secondary">dbekhrgkwhera;
+wgltrsdfnlkgwvfktgrlvj;
+tljtrkgjerdfjkrgl </p></div></div></div><div class="col-lg-3 col-md-6 col-sm-12"><div class="services"><div class="services-img text-centre py-4"><img src="./img/s4.png" alt="section-4"></div><div class="card-body text-centre"><h5 class="car-title text-uppercase
+ font-roboto">Web developer</h5>
+ <p class="card-text text-secondary">dbekhrgkwhera;
+wgltrsdfnlkgwvfktgrlvj;
+tljtrkgjerdfjkrgl </p></div></div></div>. </div></div></div></section><!--==========project area===========--><section class="project-area"><div class="container"><div class="project-title pb-5"><h1 class=".text-uppercase title-h1">Recently done projects </h1><h1 class=".text-uppercase title-h1">Quality Work</h1></div><div class="button-group"><button type="button" class="active" id="btn1" data-filter="">All</button><button type="button" data-filter=".popular">popular</button><button type="button" data-filter=".latest">Latest</button><button type="button" data-filter=".following">Following</button><button type="button" data-filter=".upcoming">Upcoming</button></div><div class="row grid"><div class="col-lg-4 col-md-6 col-sm-12 element-item
+ latest">
+ <div class="our-project"><div class="img"><img src="./img/p1.jpg" alt="portfolio-1"></div><div class="py-4"><h4 class="text-uppercase">Minimul Desing</h4><span class="text-secondary">Latest,
+portfolio</span></div></div></div><div class="col-lg-4 col-md-6 col-sm-12 element-item
+ popular">
+ <div class="our-project"><div class="img"><img src="./img/p2.jpg" alt="portfolio-2"></div><div class="py-4"><h4 class="text-uppercase">Paint Wall</h4><span class="text-secondary">popular,
+portfolio</span></div></div></div><div class="col-lg-4 col-md-6 col-sm-12 element-item
+ latest">
+ <div class="our-project"><div class="img"><img src="./img/p3.jpg" alt="portfolio-3"></div><div class="py-4"><h4 class="text-uppercase">Female-light</h4><span class="text-secondary">Latest,
+portfolio</span></div></div></div><div class="col-lg-4 col-md-6 col-sm-12 element-item
+ upcoming">
+ <div class="our-project"><div class="img"><img src="./img/p4.jpg" alt="portfolio-4"></div><div class="py-4"><h4 class="text-uppercase">Fourth Air</h4><span class="text-secondary">upcoming,
+portfolio</span></div></div></div><div class="col-lg-4 col-md-6 col-sm-12 element-item
+ upcoming">
+ <div class="our-project"><div class="img"><img src="./img/p5.jpg" alt="portfolio-5"></div><div class="py-4"><h4 class="text-uppercase">Multiple form</h4><span class="text-secondary">upcoming,
+portfolio</span></div></div></div><div class="col-lg-4 col-md-6 col-sm-12 element-item
+ following">
+ <div class="our-project"><div class="img"><img src="./img/p6.jpg" alt="portfolio-5"></div><div class="py-4"><h4 class="text-uppercase">following form</h4><span class="text-secondary">following,
+portfolio</span></div></div></div><div class="col-lg-4 col-md-6 col-sm-12 element-item
+ following">
+ <div class="our-project"><div class="img"><img src="./img/p7.jpg" alt="portfolio-7"></div><div class="py-4"><h4 class="text-uppercase">Green heavan</h4><span class="text-secondary">following,
+portfolio</span></div></div></div><div class="col-lg-4 col-md-6 col-sm-12 element-item
+ following">
+ <div class="our-project"><div class="img"><img src="./img/p8.jpg" alt="portfolio-8"></div><div class="py-4"><h4 class="text-uppercase">fly male</h4><span class="text-secondary">following,
+portfolio</span></div></div></div><div class="col-lg-4 col-md-6 col-sm-12 element-item
+ upcoming">
+ <div class="our-project"><div class="img"><img src="./img/p9.jpg" alt="portfolio-9"></div><div class="py-4"><h4 class="text-uppercase">Camera lens</h4><span class="text-secondary">upcoming,
+portfolio</span></div></div></div></div></div></section><!--==========project area end===========--><!--=======end Service area=============--></main><!-- <!--====jquery file===--><script src="js/jquery.js"></script><!-- icons++++++++++++--><link rel="stylesheet" href="./css/all.min.css"><!-- bootstrap js file --><script src="./js/bootstrap.min.js"></script><script src="./js/index.js"></script><!-- isotope.js=========--><script src="./vendor/isotope/isotype.js"></script><!-- custom js file==============--><!-- magfic pop up============--><script src="./vendor/Magnific-Popup-master/dist/jquery.magnific-popup.min.js"></script><script src="./js/main.js"></script></body></html>
