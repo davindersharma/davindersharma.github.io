@@ -322,3 +322,28 @@ footer.footer-area .social a>i {
 footer.footer-area .social a:hover>i {
     color: blue
 }
+
+.navbar #logo {
+    animation: zoom 1000ms infinite;
+}
+
+@keyframes zoom {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+.site-buttons .d-flex a button {
+    background-color: teal;
+    color: whitesmoke;
+    transition: all 100ms ease-in-out;
+}
+
+.site-buttons .d-flex a button:hover {
+    transform: scale(1.1);
+    transition: all 100ms ease-in-out;
+}
